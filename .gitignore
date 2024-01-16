@@ -1,3 +1,4 @@
 
 # Ignore Dataset Folder:
 dataset/
+scripts/__pycache__/
