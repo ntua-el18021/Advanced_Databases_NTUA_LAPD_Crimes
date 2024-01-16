@@ -25,7 +25,7 @@ We bring special attention to the creation of the dataframe, as that will be use
 
 ### Output Files
 All outputs, are stored in the ```outputs``` folder, as specified in the scripts. Each scipt created an output file relative to its name, so dont worry about keeping things tidy!<br>
-Make sure to check out our project's complete report, for some additional explanations and results summary: [Assignment Report](./advanced_db_project.pdf)
+Make sure to check out our project's complete report, for some additional explanations and results summary: [Assignment Report](./03118838_03118021.pdf)
 
 ### Resource Management
 You can monitor your apps' execution and overall health of HDFS, YARN and SPARK, through the following webpages, but make sure to adjust with you master VM's public ip!
