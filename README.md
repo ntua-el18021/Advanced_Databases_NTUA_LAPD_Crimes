@@ -15,12 +15,17 @@ After the above installation steps are performed, you can stop and setup the nee
 * Use ```bash setup_env.sh``` to startup the environment
 * Use ```stop_env.sh``` to stop the environment safely
 
-During our testing we found that sometimes the above tasks can me memory intensive and that the cache would sometimes come dangerously close to maximum memory capabilities. For debugging purposes, try seeing your system's memory utilization: ```df -h```, and if necessary stopping and restarting the environment.
+During our testing we found that sometimes the above tasks can me memory intensive and that the cache would sometimes come dangerously close to maximum memory capabilities. For debugging purposes, try seeing your system's memory utilization: ```df -h```, and if necessary stopping and restarting the environment. <br>
+Before continuing, make sure to check out the full Project Assignment: [advanced_db_project](./advanced_db_project.pdf)
 
 ### Queries Execution
 All requested scripts can be found in the ```scripts``` directory. There are 2 utility-only scripts: ```utilities_conf.py``` and ```utilities_functions.py```, with the first containing necessary paths and fixed variables and the latter, containing functions relative to input/output that were placed i na seperate file for easy of readability of the main scripts.<br>
 The rest of the Queries and Scripts, can be executed by: ```spark-submit [script_name]``` , which runs the script with default parameters or all together with: ```bash run_scripts.sh``` <br>
 We bring special attention to the creation of the dataframe, as that will be used by latter scripts! The script gives several options, like adding more descriptions to the output file, but most importantly, you can specify that the final dataframe is saved in your hdfs! To do so run: ```spark-submit utilities_create_dataframe.py -d```
+
+### Output Files
+All outputs, are stored in the ```outputs``` folder, as specified in the scripts. Each scipt created an output file relative to its name, so dont worry about keeping things tidy!<br>
+Make sure to check out our project's complete report, for some additional explanations and results summary: [Assignment Report](./advanced_db_project.pdf)
 
 ### Resource Management
 You can monitor your apps' execution and overall health of HDFS, YARN and SPARK, through the following webpages, but make sure to adjust with you master VM's public ip!
