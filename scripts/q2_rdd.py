@@ -53,12 +53,12 @@ def main():
 
     # Requested information!
     print("Number of Crimes occurring in (STREET) for times of day:")
-    print("+---------+------+")  # Top border
-    print("|TimeOfDay| Count|")  # Header
-    print("+---------+------+")  # Separator
+    print("+---------+------+")  
+    print("|TimeOfDay| Count|")  
+    print("+---------+------+")  
     for time_of_day, count in result:
-        print("|{:<9}|{:>6}|".format(time_of_day, count))  # Data rows
-    print("+---------+------+")  # Bottom border
+        print("|{:<9}|{:>6}|".format(time_of_day, count))  
+    print("+---------+------+")  
     print(f"\nNumber of rows: {len(result)}")
     print(f"\nExecution time: {end_time - start_time} seconds")
 
