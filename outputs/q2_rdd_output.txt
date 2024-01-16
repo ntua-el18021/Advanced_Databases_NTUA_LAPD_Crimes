@@ -1,0 +1,13 @@
+Number of Crimes occurring in (STREET) for times of day:
++---------+------+
+|TimeOfDay| Count|
++---------+------+
+|Night    |240393|
+|Evening  |188522|
+|Afternoon|149713|
+|Morning  |125500|
++---------+------+
+
+Number of rows: 4
+
+Execution time: 13.247645139694214 seconds

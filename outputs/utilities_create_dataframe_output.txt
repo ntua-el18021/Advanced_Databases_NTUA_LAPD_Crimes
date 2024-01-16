@@ -1,0 +1,42 @@
+
+---------------------- Requested Information ----------------------
+Number of Rows in Final DataFrame: 2973193
+
+Column Types for Final Combined DataFrame:
++-------------------------+--------+
+|       Column Name       |  Type  |
++-------------------------+--------+
+|          DR_NO          |  int   |
+|        Date Rptd        |  date  |
+|         DATE OCC        |  date  |
+|         TIME OCC        |  int   |
+|           AREA          |  int   |
+|        AREA NAME        | string |
+|       Rpt Dist No       |  int   |
+|         Part 1-2        |  int   |
+|          Crm Cd         |  int   |
+|       Crm Cd Desc       | string |
+|         Mocodes         | string |
+|         Vict Age        |  int   |
+|         Vict Sex        | string |
+|       Vict Descent      | string |
+|        Premis Cd        |  int   |
+|       Premis Desc       | string |
+|      Weapon Used Cd     |  int   |
+|       Weapon Desc       | string |
+|          Status         | string |
+|       Status Desc       | string |
+|         Crm Cd 1        |  int   |
+|         Crm Cd 2        |  int   |
+|         Crm Cd 3        |  int   |
+|         Crm Cd 4        |  int   |
+|         LOCATION        | string |
+|       Cross Street      | string |
+|           LAT           | double |
+|           LON           | double |
+|         ZIPcode         | string |
+|        Community        | string |
+| Estimated Median Income | string |
++-------------------------+--------+
+
+Final DataFrame successfully saved to CSV

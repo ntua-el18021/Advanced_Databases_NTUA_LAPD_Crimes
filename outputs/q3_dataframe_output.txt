@@ -1,0 +1,13 @@
+Requested information: 
++--------------------+-----+
+|        Vict Descent|count|
++--------------------+-----+
+|Hispanic/Latin/Me...| 1032|
+|               Black|  983|
+|               White|  652|
+|               Other|   62|
++--------------------+-----+
+
+Execution time for 2 executors: 4.475822687149048 seconds
+Execution time for 3 executors: 3.3158769607543945 seconds
+Execution time for 4 executors: 3.1158902645111084 seconds
